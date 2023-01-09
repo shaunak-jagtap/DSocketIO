@@ -1,0 +1,16 @@
+PODS:
+  - DSocketIO (0.1.0)
+
+DEPENDENCIES:
+  - DSocketIO (from `../`)
+
+EXTERNAL SOURCES:
+  DSocketIO:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DSocketIO: b11b988be642965fbc1a25e1bfe3142e46e75e83
+
+PODFILE CHECKSUM: c419ab0e597d4bd45ab035efbd9941a2866d22a4
+
+COCOAPODS: 1.11.3

@@ -1,0 +1,6 @@
+framework module Pods_DSocketIO_Tests {
+  umbrella header "Pods-DSocketIO_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

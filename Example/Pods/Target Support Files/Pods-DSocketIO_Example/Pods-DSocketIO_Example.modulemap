@@ -1,0 +1,6 @@
+framework module Pods_DSocketIO_Example {
+  umbrella header "Pods-DSocketIO_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

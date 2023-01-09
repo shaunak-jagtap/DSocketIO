@@ -1,0 +1,6 @@
+framework module DSocketIO {
+  umbrella header "DSocketIO-umbrella.h"
+
+  export *
+  module * { export * }
+}
