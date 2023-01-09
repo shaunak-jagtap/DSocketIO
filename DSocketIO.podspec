@@ -19,16 +19,17 @@ Pod::Spec.new do |s|
 
   s.description      = "sample pod to present modified version of SocketIO"
 
-  s.homepage         = 'https://github.com/13964462/DSocketIO.git'
+  s.homepage         = 'https://github.com/shaunak-jagtap/DSocketIO.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '13964462' => 'shaunakjagtap@gmail.com' }
-  s.source           = { :git => 'https://github.com/13964462/DSocketIO.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/shaunak-jagtap/DSocketIO.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '11.0'
+  s.swift_versions  = '4.0'
+  s.source_files = 'DSocketIO/**/*.swift'
 
-  s.source_files = 'DSocketIO/Classes/**/*'
   
   # s.resource_bundles = {
   #   'DSocketIO' => ['DSocketIO/Assets/*.png']
@@ -36,5 +37,5 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+   s.dependency 'AFNetworking', '~> 2.3'
 end
